@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/almilo/ng-test-commons.git"
+    "url": "https://github.com/rohanware/ng-test-commons.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/almilo/ng-test-commons/issues"
+    "url": "https://github.com/rohanware/ng-test-commons/issues"
   },
-  "homepage": "https://github.com/almilo/ng-test-commons",
+  "homepage": "https://github.com/rohanware/ng-test-commons",
   "devDependencies": {
     "karma": "^0.12.28",
     "karma-browserify": "^1.0.0",
