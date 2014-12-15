@@ -1,1 +1,4 @@
-require('./src/matchers/matchers.spec');
+require('angular');
+require('angular-mocks');
+
+require('./src/util/util.spec');
