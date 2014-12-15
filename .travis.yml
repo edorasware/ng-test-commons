@@ -6,7 +6,7 @@ deploy:
   provider: npm
   email: almilo@almilo.es
   api_key:
-    secure: Od3IBQd+kxOyUwdSXb9xnpgCI8uIfeoOrr9gE2BLrblRB7NT6QnEH2VSNaSrgtAzr2i5crsK17ULHrZPc06ODP0U//dH87bTeKXeslIamRvgnS9I8/6q6Wj14dRBNAuhJqU25P5mGVXF54LFcMj650T9I1BJmDyXf/XhSenw8Vw=
+    secure: pkKWjqzr4EI0kBlnL2GrggQNrWuXw8QbpA88UpJfUd5dtF8eR5L2J5CY48n/R2Xl1liAuUm11pf7JN1eLYgUI3fjdj98giTVdzMjsRTRzrqcHpXrXKsfiXwC60IRs0Otyg/cBkXPWK34DlgsEoYpAb8Td81pRT7o63/y2/vpoMs=
   on:
     tags: true
     all_branches: true
