@@ -1,32 +1,32 @@
 {
-    "name": "ng-test-commons",
-    "version": "0.0.2",
-    "description": "Reusable AngularJS test abstractions",
-    "main": "index.js",
-    "scripts": {
-        "test": "node node_modules/karma/bin/karma start --singleRun"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/rohanware/ng-test-commons.git"
-    },
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/rohanware/ng-test-commons/issues"
-    },
-    "homepage": "https://github.com/rohanware/ng-test-commons",
-    "devDependencies": {
-        "angular-bsfy": "^1.3.5-2",
-        "karma": "^0.12.28",
-        "karma-browserify": "^1.0.0",
-        "karma-jasmine": "^0.1.5",
-        "karma-phantomjs-launcher": "^0.1.4"
-    },
-    "dependencies": {
-        "lodash": "^2.4.1"
-    },
-    "browser": {
-        "angular": "angular-bsfy",
-        "angular-mocks": "angular-bsfy/mocks"
-    }
+  "name": "ng-test-commons",
+  "version": "0.0.3",
+  "description": "Reusable AngularJS test abstractions",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/karma/bin/karma start --singleRun"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rohanware/ng-test-commons.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rohanware/ng-test-commons/issues"
+  },
+  "homepage": "https://github.com/rohanware/ng-test-commons",
+  "devDependencies": {
+    "angular-bsfy": "^1.3.5-2",
+    "karma": "^0.12.28",
+    "karma-browserify": "^1.0.0",
+    "karma-jasmine": "^0.1.5",
+    "karma-phantomjs-launcher": "^0.1.4"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1"
+  },
+  "browser": {
+    "angular": "angular-bsfy",
+    "angular-mocks": "angular-bsfy/mocks"
+  }
 }
