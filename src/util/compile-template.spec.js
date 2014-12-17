@@ -1,5 +1,5 @@
 describe('compileTemplate method', function () {
-    var testModule = angular.module('test', [])
+    var testModule = angular.module('test-compile-template', [])
         .directive('aTest', function () {
             return {
                 template: '<div>Foo {{text}}</div>'

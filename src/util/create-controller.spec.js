@@ -1,8 +1,8 @@
 describe('createController method', function () {
-    var testModule = angular.module('test', [])
+    var testModule = angular.module('test-controller', [])
         .controller('aTestController', function ($scope) {
             $scope.text = 'Foo Bar';
-        });
+        }), $rootScope;
 
     beforeEach(angular.mock.module(testModule.name));
 
