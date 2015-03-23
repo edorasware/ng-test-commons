@@ -1,6 +1,6 @@
 {
   "name": "ng-test-commons",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Reusable AngularJS test abstractions",
   "main": "index.js",
   "scripts": {
