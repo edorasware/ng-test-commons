@@ -15,8 +15,8 @@ describe('mock providers', function () {
         }));
 
         it('should provide a mock', function () {
-            aTestObjectService.getText.andReturn('Foo Bar');
-            aTestFunctionService.andReturn('Foo Bar');
+            aTestObjectService.getText.and.returnValue('Foo Bar');
+            aTestFunctionService.and.returnValue('Foo Bar');
 
             expect(aTestObjectService.getText()).toBe('Foo Bar');
             expect(aTestFunctionService()).toBe('Foo Bar');
@@ -37,8 +37,8 @@ describe('mock providers', function () {
         }));
 
         it('should provide a mock', function () {
-            aTestObjectService.getText.andReturn('Foo Bar');
-            aTestFunctionService.andReturn('Foo Bar');
+            aTestObjectService.getText.and.returnValue('Foo Bar');
+            aTestFunctionService.and.returnValue('Foo Bar');
 
             expect(aTestObjectService.getText()).toBe('Foo Bar');
             expect(aTestFunctionService()).toBe('Foo Bar');

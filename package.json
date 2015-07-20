@@ -1,6 +1,6 @@
 {
   "name": "ng-test-commons",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "Reusable AngularJS test abstractions",
   "main": "index.js",
   "scripts": {
@@ -18,10 +18,10 @@
   "devDependencies": {
     "angular": "^1.3.15",
     "angular-mocks": "^1.3.15",
-    "karma": "^0.12.17",
+    "karma": "^0.12.37",
     "karma-browserify": "^1.0.0",
-    "karma-jasmine": "^0.1.5",
-    "karma-phantomjs-launcher": "^0.1.4"
+    "karma-jasmine": "^0.2.3",
+    "karma-chrome-launcher": "^0.1.7"
   },
   "dependencies": {
     "lodash": "^3.5.0"
